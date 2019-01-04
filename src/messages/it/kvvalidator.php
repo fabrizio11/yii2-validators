@@ -17,15 +17,15 @@
  * NOTE: this file must be saved in UTF-8 encoding.
  */
 return [
-    '"{number}" is not a valid card number' => '',
-    '"{value}" does not seem to be a valid phone number.' => '',
-    '"{value}" is not a valid email address.' => '',
-    'A maximum of {value, number} {value, plural, one{email is} other{emails are}} allowed.' => '',
-    'At least {value, number} {value, plural, one{email is} other{emails are}} required.' => '',
-    'Country is required for phone validation.' => '',
-    'Invalid CVV "{cvv}"' => '',
-    'Invalid expiry month/year "{expiry}"' => '',
-    'Invalid holder name "{holder}"' => '',
-    'Unexpected or unrecognized phone number format.' => '',
-    'Unsupported card number "{number}"' => '',
+    '"{number}" is not a valid card number' => '{number} non è un numero di carta valido',
+    '"{value}" does not seem to be a valid phone number.' => '{value} sembra non essere un numero di telefono valido',
+    '"{value}" is not a valid email address.' => '{value} non è un indirizzo email valido',
+    'A maximum of {value, number} {value, plural, one{email is} other{emails are}} allowed.' => 'È consentito un massimo di {value} email}',
+    'At least {value, number} {value, plural, one{email is} other{emails are}} required.' => 'È necessario inserire almeno {value} email.',
+    'Country is required for phone validation.' => 'La nazione è obbligatoria per validare il telefono',
+    'Invalid CVV "{cvv}"' => 'CVV non valido',
+    'Invalid expiry month/year "{expiry}"' => 'Scadenza mese/anno "{expiry}" non valida',
+    'Invalid holder name "{holder}"' => 'Intestatario "{holder}" non valido',
+    'Unexpected or unrecognized phone number format.' => 'Formato numero non riconosciuto o non valido',
+    'Unsupported card number "{number}"' => 'Numero carta "{number}" non supportato',
 ];
